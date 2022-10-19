@@ -1,14 +1,15 @@
 import Head from 'next/head'
-import { Container, Footer, Layout, Navbar, Hero } from '../components';
+import { Container, Footer, Layout, Navbar, Hero } from '../components'; //Inportando os componentes
 
 const HomePage = () => {
   return (
-    <Layout>
+    //uikit: se trata de "um framework responsivo modular de front-end projetado para ser leve e simples de se usar".
+    <Layout> 
       <Head>
         <title>Jusbrasil: Tech test (level 03 to 04)</title>
-        <link rel="icon" href="/favicon.png" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/css/uikit.min.css" />
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/js/uikit.min.js"></script>
+        <link rel="icon" href="/favicon.png" /> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/css/uikit.min.css" /> 
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/js/uikit.min.js"></script> 
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.2/dist/js/uikit-icons.min.js"></script>
       </Head>
 

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Container, Footer, Layout, Navbar, Hero } from '../components';
+import { Container, Footer, Layout, Navbar, Hero } from '../components'; //Importando os componentes
 
 const HomePage = () => {
   return (
