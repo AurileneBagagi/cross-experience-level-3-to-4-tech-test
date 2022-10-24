@@ -17,11 +17,15 @@
 **22/10 A 24/10**
 - Estudando API
 
-Fontes:
+*Fontes:*
 
 * https://www.youtube.com/watch?v=Q9oVStZ1DJA
 * https://www.youtube.com/watch?v=f7JWDLFhR_c
 * https://youtube.com/playlist?list=PL85ITvJ7FLoiXVwHXeOsOuVppGbBzo2dp
+
+*Repositorio que utilzei pra treinar o basico:*
+
+https://github.com/AurileneBagagi/-API-NodeJS-Express-Mongo-
 
 **24/10**
 - Iniciando a API
