@@ -34,9 +34,13 @@ https://github.com/AurileneBagagi/-API-NodeJS-Express-Mongo-
 # Justificativa
  **Docker**
  
-O meu notebook tem um processador Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz 2.40 GHz com a memoria principal de 8G. Devido aos limites o software Docker consome muita memoria RAM, deixando o restante do procesador instavel, travando muito, o que me impossibilita de trabalhar melhor.
+O meu notebook tem um processador Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz 2.40 GHz com a memoria principal de 8GB. Devido aos limites o software Docker consome muita memoria RAM, deixando o restante do procesador instavel, travando muito, o que me impossibilita de trabalhar melhor.
 
 É por essa justificativa que estarei utilizando o nextjs para executar o projeto.
+
+**Express**
+
+Aprendi que o framework "express" é importante para rota e outros fatores de uma API, então estou utilizando no desafio 
 
 ---
 
@@ -46,3 +50,8 @@ O meu notebook tem um processador Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz 2.40 
 - Compreender o UIkit (tecnologia nova para mim)
 - Implementar uma API em JS (é novidade)
 - Teste Automotizado. Eu nunca fiz um teste nesse esquema.
+
+**API REST**
+
+Fazia um ano que eu não tocava em uma API, e a linguagem JavaScript é um conceito novo que estou tendo contato em 6 meses. Devido a isso, senti muita dificuldade em enteder de fato como uma API trabalha (percebi que sabia pouca coisa), ainda sim estou tendo dificuldade. 
+
