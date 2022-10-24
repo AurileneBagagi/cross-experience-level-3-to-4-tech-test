@@ -14,6 +14,18 @@
 - Estudando tecnologias "novas".
 - Estudando como implementar uma API 
 
+**22/10 A 24/10**
+- Estudando API
+
+Fontes:
+
+* https://www.youtube.com/watch?v=Q9oVStZ1DJA
+* https://www.youtube.com/watch?v=f7JWDLFhR_c
+* https://youtube.com/playlist?list=PL85ITvJ7FLoiXVwHXeOsOuVppGbBzo2dp
+
+**24/10**
+- Iniciando a API
+
 ---
 # Justificativa
  **Docker**
