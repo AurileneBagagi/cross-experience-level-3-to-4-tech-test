@@ -99,3 +99,9 @@ Como Bruno me explicou que não era necessario armazenar os cartões de credito,
 No que se diz a respeito ao frontend, os valores acrescentados aos inputs seriam "acionados" a API. Onde a API retornaria ao frontend (atravez do JS) uma resposta adequada para o cliente em relação ao seu cartão.
 
 Para essa função responsavel, a API seria estrutrada adequadamente (outros diretorios/arqivos/funções), em que, receberia a chamada do metodo "POST", e os parametros passariam por funções que verificariam a integridade dos dados. Caso alguma dessas funções recusasem o valor, a API retornaria ao JavaScript exatamente qual foi o valor que gerou o erro, o JavaScript receberia esse erro em um componente e retornaria ao usuario o input do erro com o stoke em vermelho e uma mensagem leve abaixo do input informando o erro pedindo conserto. Caso os valores estivessem corretos, os dados não seriam armazenados no arquivo JSON, apenas é retornado ao usuario um pop up(usando JS) de desing ligth informando o plano assinado com sucesso e em 5 segundos retornaria automaticamente a pagina principal.
+
+---
+
+# Feedback
+
+Obrigada a equipe do JusBrasil. Especialmente ao Brunão, Maria Clara, Gabriela Silveira e a Paloma Almeida pelo carinho e paciencia. Uma equipe maravilhosa e profissional, estão de parabéns!
