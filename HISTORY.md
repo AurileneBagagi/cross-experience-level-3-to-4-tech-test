@@ -72,3 +72,7 @@ Essa seção explica como eu pretendia desenvolver o desafio para entregar o des
 **API e conexão com a pagina de planos**
 
 Não muito diferente do que foi desenvolvido, para essa API eu pretendia conectar ao projeto apenas com a função de retornar atributos especificos ("planId", "name", "benefits" e  "paymentInfo") dos planos. Os atributos: "name", "benefits" e  "paymentInfo" seriam retornados visivelmente ao usuario do website da JusBrasil. Já os atributos "planID" E "Benefits" seriam retornados como um "token" caso o usuario desejasse assinar o plano, tornando possivel a verificação e debitação no cartão de credito.
+
+**API e conexão com os cartões de credito**
+
+Como Bruno me explicou que não era necessario armazenar os cartões de credito, eu não ia de fato armazenar. A API aqi teria o trabalho de verificar a credibilidade do cartão de credito e atualizar seu novo saldo (se aprovado a compra). A credibilidade a ser verificada seria a quantidade correta de caracteres, se existe (de acordo com o arqivo disponibilidado em /resources/cards), se a data está dentro da validade e por fim verificaria a disponibilidade do saldo.
