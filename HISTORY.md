@@ -63,6 +63,8 @@ O framework "fs" auxilia no controle e manuseio de arquivos JSON, por isso utili
 
 Fazia um ano que eu não tocava em uma API, e a linguagem JavaScript é um conceito novo que estou tendo contato em 6 meses. Devido a isso, senti muita dificuldade em enteder de fato como uma API trabalha (percebi que sabia pouca coisa), ainda sim estou tendo dificuldade. 
 
+para rodar o minimo que fiz da API, basta utilizar o comando: node api/index.jsx
+
 ---
 
 # Planos de desenvolvimento + logica
@@ -72,6 +74,8 @@ Essa seção explica como eu pretendia desenvolver o desafio para entregar o des
 **API e conexão com a pagina de planos**
 
 Não muito diferente do que foi desenvolvido, para essa API eu pretendia conectar ao projeto apenas com a função de retornar atributos especificos ("planId", "name", "benefits" e  "paymentInfo") dos planos. Os atributos: "name", "benefits" e  "paymentInfo" seriam retornados visivelmente ao usuario do website da JusBrasil. Já os atributos "planID" E "Benefits" seriam retornados como um "token" caso o usuario desejasse assinar o plano, tornando possivel a verificação e debitação no cartão de credito.
+
+Para isso, o javascript receberia esses valores que seriam atribuido nos card(componente: conteiner) da primira pagina (/pages/index), dentro das divs dos dois utimos conteivers. Os conteiners iriam conter essa estrutura: 2 Divs para o nome do projeto e valor e uma tag do tipo lista para retornar os beneficios,  o botão que retornaria para a pagina (/pages/checkout) e ao lado da lista icones de "check" assim como no site original.
 
 **API e conexão com os cartões de credito**
 
