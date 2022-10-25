@@ -63,3 +63,12 @@ O framework "fs" auxilia no controle e manuseio de arquivos JSON, por isso utili
 
 Fazia um ano que eu não tocava em uma API, e a linguagem JavaScript é um conceito novo que estou tendo contato em 6 meses. Devido a isso, senti muita dificuldade em enteder de fato como uma API trabalha (percebi que sabia pouca coisa), ainda sim estou tendo dificuldade. 
 
+---
+
+# Planos de desenvolvimento + logica
+
+Essa seção explica como eu pretendia desenvolver o desafio para entregar o desafio com sucesso
+
+**API e conexão com a pagina de planos**
+
+Não muito diferente do que foi desenvolvido, para essa API eu pretendia conectar ao projeto apenas com a função de retornar atributos especificos ("planId", "name", "benefits" e  "paymentInfo") dos planos. Os atributos: "name", "benefits" e  "paymentInfo" seriam retornados visivelmente ao usuario do website da JusBrasil. Já os atributos "planID" E "Benefits" seriam retornados como um "token" caso o usuario desejasse assinar o plano, tornando possivel a verificação e debitação no cartão de credito.
