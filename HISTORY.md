@@ -29,6 +29,7 @@ https://github.com/AurileneBagagi/-API-NodeJS-Express-Mongo-
 
 **24/10**
 - Iniciando a API
+- Instalando dependências: Express e FS
 
 ---
 # Justificativa
@@ -42,6 +43,10 @@ O meu notebook tem um processador Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz 2.40 
 
 Aprendi que o framework "express" é importante para rota e outros fatores de uma API, então estou utilizando no desafio 
 
+**FS**
+
+O framework "fs" auxilia no controle e manuseio de arquivos JSON, por isso utilizei durante o desenvolvimento da API
+
 ---
 
 # Dificuldades
@@ -50,6 +55,9 @@ Aprendi que o framework "express" é importante para rota e outros fatores de um
 - Compreender o UIkit (tecnologia nova para mim)
 - Implementar uma API em JS (é novidade)
 - Teste Automotizado. Eu nunca fiz um teste nesse esquema.
+- A linguagem JS. Desde que iniciei os estudo na area de TI programei em python, mesmo programando a um tempo razoavel em JS, percebi que sabia muito pouco. Encontrei muita dificuldade com sintaxes e também com o manuseio de dados (o python possui mais funcionalidades e é mais praticos nesse quesito).
+- Arquivos JSON: mesmo sabendo como são modelos de dados orientados a objeto, a falta de um servidor e SGBD intermedirio dificultaram a manipulação do arquivo, logo senti muita dificuldade e tive muitos bugs.
+- Frameworks JS.
 
 **API REST**
 
