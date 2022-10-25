@@ -47,6 +47,14 @@ Aprendi que o framework "express" é importante para rota e outros fatores de um
 
 O framework "fs" auxilia no controle e manuseio de arquivos JSON, por isso utilizei durante o desenvolvimento da API
 
+**Pasta Router**
+
+Essa pasta é responsavel por armazenar as rotas da API para seus endpoint.
+
+**Pasta database**
+
+A pasta contem um arquivo JSON "farce.json" apenas para manter uma conexão logica para o methodo de verificação de integridade de dados dos cartões. Mais informações detalhadas na Seção de *Planos de desenvolvimento + logica*
+
 ---
 
 # Dificuldades
