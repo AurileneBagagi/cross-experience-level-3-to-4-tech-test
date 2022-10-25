@@ -65,6 +65,13 @@ Fazia um ano que eu não tocava em uma API, e a linguagem JavaScript é um conce
 
 para rodar o minimo que fiz da API, basta utilizar o comando: node api/index.jsx
 
+Eu indico que utilizem softwares de API como por exemplo o Postman
+
+rotas: 
+- http://localhost:3001/Cards, http://localhost:3001/Plans e http://localhost:3001/Farse para vizualizar os dados por completo.
+http://localhost:3001/addCard para adiconar algum card
+
+
 ---
 
 # Planos de desenvolvimento + logica
@@ -75,8 +82,12 @@ Essa seção explica como eu pretendia desenvolver o desafio para entregar o des
 
 Não muito diferente do que foi desenvolvido, para essa API eu pretendia conectar ao projeto apenas com a função de retornar atributos especificos ("planId", "name", "benefits" e  "paymentInfo") dos planos. Os atributos: "name", "benefits" e  "paymentInfo" seriam retornados visivelmente ao usuario do website da JusBrasil. Já os atributos "planID" E "Benefits" seriam retornados como um "token" caso o usuario desejasse assinar o plano, tornando possivel a verificação e debitação no cartão de credito.
 
-Para isso, o javascript receberia esses valores que seriam atribuido nos card(componente: conteiner) da primira pagina (/pages/index), dentro das divs dos dois utimos conteivers. Os conteiners iriam conter essa estrutura: 2 Divs para o nome do projeto e valor e uma tag do tipo lista para retornar os beneficios,  o botão que retornaria para a pagina (/pages/checkout) e ao lado da lista icones de "check" assim como no site original.
+Para isso, o javascript receberia esses valores que seriam atribuido(parametros) nos card(componente: conteiner) da primira pagina (/pages/index), dentro das divs dos dois utimos conteivers. Os conteiners iriam conter essa estrutura: 2 Divs para o nome do projeto e valor e uma tag do tipo lista para retornar os beneficios,  o botão que retornaria para a pagina (/pages/checkout) e ao lado da lista icones de "check" assim como no site original.
 
 **API e conexão com os cartões de credito**
 
-Como Bruno me explicou que não era necessario armazenar os cartões de credito, eu não ia de fato armazenar. A API aqi teria o trabalho de verificar a credibilidade do cartão de credito e atualizar seu novo saldo (se aprovado a compra). A credibilidade a ser verificada seria a quantidade correta de caracteres, se existe (de acordo com o arqivo disponibilidado em /resources/cards), se a data está dentro da validade e por fim verificaria a disponibilidade do saldo.
+Como Bruno me explicou que não era necessario armazenar os cartões de credito, eu não ia de fato armazenar. A API aqui teria o trabalho de verificar a credibilidade do cartão de credito e atualizar seu novo saldo (se aprovado a compra). A credibilidade a ser verificada seria a quantidade correta de caracteres, se existe (de acordo com o arqivo disponibilidado em /resources/cards), se a data está dentro da validade e por fim verificaria a disponibilidade do saldo.
+
+No que se diz a respeito ao frontend, os valores acrescentados aos inputs seriam "acionados" a API. Onde a API retornaria ao frontend (atravez do JS) uma resposta adequada para o cliente em relação ao seu cartão.
+
+Para essa função responsavel, a API seria estrutrada adequadamente (outros diretorios/arqivos/funções), em que, receberia a chamada do metodo "POST", e os parametros passariam por funções que verificariam a integridade dos dados. Caso alguma dessas funções recusasem o valor, a API retornaria ao JavaScript exatamente qual foi o valor que gerou o erro, o JavaScript receberia esse erro em um componente e retornaria ao usuario o input do erro com o stoke em vermelho e uma mensagem leve abaixo do input informando o erro pedindo conserto. Caso os valores estivessem corretos, os dados não seriam armazenados no arquivo JSON, apenas é retornado ao usuario um pop up(usando JS) de desing ligth informando o plano assinado com sucesso e em 5 segundos retornaria automaticamente a pagina principal.
